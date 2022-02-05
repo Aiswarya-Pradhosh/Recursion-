@@ -1,52 +1,21 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+#include <stdio.h>
+int main()
+{
+  int num,result;
+  printf("Enter the number:");
+  scanf("%d",&num);
+  result=sum(num);
+  printf("sum of digits in %d is%d\n",num,result);
+  result 0;
+}
+int sum(int num)
+{
+  if(num!=0)
+  {
+    return(num%10+sum(num(10))
+  }
+  else
+  {
+    return 0;
+  }
+}
